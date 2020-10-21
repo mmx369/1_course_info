@@ -1,5 +1,7 @@
 import React from 'react'
 
-const Part = ({ part, exersise }) => <p>{part} {exersise}</p>
+const Part = ({ parts }) => {
+    return parts.map((el) => <li key={el.name}>{el.name} {el.exercises}</li>)
+}
 
 export default Part
