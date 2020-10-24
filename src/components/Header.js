@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Header = (props) => <h1>{props.course}</h1>
+const Header = (props) => <h3>{props.course}</h3>
 
 export default Header
